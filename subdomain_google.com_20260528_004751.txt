@@ -1,0 +1,34 @@
+# Subdomain Hunter — google.com
+# Tarih: 2026-05-28 00:47:51
+
+account.google.com → 172.217.16.142
+admin.google.com → 142.251.208.110
+analytics.google.com → 172.217.23.142
+android.google.com → 172.217.23.142
+api.google.com → 192.178.25.228
+archive.google.com → 142.251.38.238
+blog.google.com → 172.217.18.169
+chat.google.com → 142.251.142.110
+cloud.google.com → 172.217.16.142
+corp.google.com → 142.251.127.129
+docs.google.com → 192.178.25.238
+email.google.com → 172.217.16.142
+files.google.com → 172.217.16.142
+finance.google.com → 172.217.16.142
+help.google.com → 172.217.16.142
+m.google.com → 192.178.25.235
+mail.google.com → 192.178.24.165
+mobile.google.com → 192.178.25.235
+ns1.google.com → 216.239.32.10
+ns2.google.com → 216.239.34.10
+pixel.google.com → 192.178.24.174
+registry.google.com → 192.178.25.238
+sandbox.google.com → 142.251.127.81
+shop.google.com → 142.251.127.92
+smtp.google.com → 142.251.127.26
+store.google.com → 172.217.171.78
+support.google.com → 172.217.22.238
+upload.google.com → 172.217.16.143
+vpn.google.com → 64.9.224.70
+wap.google.com → 172.217.16.142
+www.google.com → 142.251.157.119

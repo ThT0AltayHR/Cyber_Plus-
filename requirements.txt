@@ -1,0 +1,95 @@
+# ╔══════════════════════════════════════════════════════════════╗
+# ║                                                              ║
+# ║   ██████╗ ███████╗ ██████╗ ██████╗ ███╗   ██╗              ║
+# ║   ██╔══██╗██╔════╝██╔════╝██╔═══██╗████╗  ██║              ║
+# ║   ██████╔╝█████╗  ██║     ██║   ██║██╔██╗ ██║              ║
+# ║   ██╔══██╗██╔══╝  ██║     ██║   ██║██║╚██╗██║              ║
+# ║   ██║  ██║███████╗╚██████╗╚██████╔╝██║ ╚████║              ║
+# ║   ╚═╝  ╚═╝╚══════╝ ╚═════╝ ╚═════╝ ╚═╝  ╚═══╝              ║
+# ║                                                              ║
+# ║              S U I T E   —   v 9 . 1                        ║
+# ║        Professional Security Reconnaissance Toolkit          ║
+# ║                                                              ║
+# ╚══════════════════════════════════════════════════════════════╝
+#
+# ┌──────────────────────────────────────────────────────────────┐
+# │              BAĞIMLILIK KURULUM DOSYASI                      │
+# │                                                              │
+# │  Kurulum:  pip install -r requirements.txt                   │
+# │  Python:   3.7 veya üzeri gereklidir                        │
+# └──────────────────────────────────────────────────────────────┘
+#
+# ··············  ▶▶▶  LOADING DEPENDENCIES  ◀◀◀  ··············
+#
+# ═══════════════════════════════════════════════════════════════
+#  [ 1 / 2 ]  ████████████░░░░░░░░  HTTP İSTEK MOTORu
+# ═══════════════════════════════════════════════════════════════
+#
+#   ╔═════════════════════════════════════════════════════╗
+#   ║  requests — HTTP/HTTPS İstek Kütüphanesi           ║
+#   ║                                                     ║
+#   ║  ● crt.sh Certificate Transparency sorgulama       ║
+#   ║  ● Web-Recon HTTP durum kodu analizi               ║
+#   ║  ● Redirect zinciri takibi                         ║
+#   ║  ● Header analizi ve parmak izi tespiti            ║
+#   ║  ● WAF simülasyonu ve CORS kontrolü                ║
+#   ║  ● Wayback Machine / OSINT API sorguları           ║
+#   ║  ● SSL doğrulama devre dışı (pentest modu)         ║
+#   ╚═════════════════════════════════════════════════════╝
+#
+requests>=2.28.0
+#
+# ═══════════════════════════════════════════════════════════════
+#  [ 2 / 2 ]  ████████████████████  RENK & ANİMASYON MOTORu
+# ═══════════════════════════════════════════════════════════════
+#
+#   ╔═════════════════════════════════════════════════════╗
+#   ║  colorama — Terminal Renk ve Stil Kütüphanesi      ║
+#   ║                                                     ║
+#   ║  ● 50 adet random ASCII art ana menüde             ║
+#   ║  ● 20 adet random ASCII art her modülde            ║
+#   ║  ● Renkli durum kodları (200/403/500)              ║
+#   ║  ● Spinner animasyonu (tarama ilerlemesi)          ║
+#   ║  ● Windows CMD & PowerShell uyumu                  ║
+#   ║  ● Linux/macOS terminal tam destek                 ║
+#   ║  ● ANSI escape code otomatik yönetim               ║
+#   ╚═════════════════════════════════════════════════════╝
+#
+colorama>=0.4.6
+#
+# ───────────────────────────────────────────────────────────────
+#  STANDART KÜTüPHANELER  (kurulum gerekmez — Python ile gelir)
+# ───────────────────────────────────────────────────────────────
+#
+#   os          →  Sistem komutları & ekran temizleme
+#   sys         →  Python çıkış ve argüman yönetimi
+#   time        →  Spinner & bekleme animasyonları
+#   json        →  API yanıtları parse etme
+#   socket      →  DNS çözümleme & port tarama
+#   random      →  ASCII art havuzundan rastgele seçim
+#   threading   →  Spinner arka plan thread yönetimi
+#   subprocess  →  whois, nslookup, traceroute çağrıları
+#   datetime    →  Zaman damgası ve dosya adlandırma
+#   re          →  Regex — form/input parsing
+#   ssl         →  SSL/TLS sertifika analizi
+#   urllib      →  URL ayrıştırma
+#   concurrent  →  ThreadPoolExecutor paralel tarama
+#
+# ───────────────────────────────────────────────────────────────
+#  OPSİYONEL ARAÇLAR  (sistem üzerinde kurulu olması gerekir)
+# ───────────────────────────────────────────────────────────────
+#
+#   whois       →  apt install whois  /  brew install whois
+#   nslookup    →  apt install dnsutils  (genellikle yüklü)
+#   traceroute  →  apt install traceroute  /  macOS'ta dahili
+#
+# ═══════════════════════════════════════════════════════════════
+#
+#   ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+#   █  KURULUM TAMAMLANDI  >>>  python3 recon_suite.py   █
+#   ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+#
+# ═══════════════════════════════════════════════════════════════
+#  UYARI: Bu araç yalnızca yetkili sistemlerde kullanılmalıdır.
+#  Türk Ceza Kanunu 243-245 maddeleri uygulanabilir.
+# ═══════════════════════════════════════════════════════════════
